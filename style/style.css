@@ -5,7 +5,7 @@
 
 body {
     height: 100vh;
-    background-color: #5A4E44;
+    background-color: #564787;
     background-image: linear-gradient();
     margin: 0;
     padding: 0;
@@ -54,12 +54,13 @@ li, a {
 
 a {
     padding: 0 20px;
+    color: #EDDDD4;
     font-size: large;
-    transition: 1s;
+    transition: 0.3s ease;
     text-transform: capitalize;
 }
 
 ol a:hover {
-    background-color: burlywood;
+    background-color: #3E000C;
 }
 
