@@ -71,14 +71,15 @@ nav a:hover {
     flex: 1;
     background-color: #167ec9;
     background-image: linear-gradient(to top,#0e5283,#167ec9,#af9bb8, #A9E6E3);
+    position: relative;
 }
 
 .main-right img {
   position: absolute;
   width: 100%;
-  max-width: 450px;
-  bottom: -64px;
-  right: 500px;
+  max-width: 60%;
+  bottom: 0px;
+  right: 75%;
 }
 
 .left {
