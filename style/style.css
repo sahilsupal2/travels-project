@@ -96,6 +96,7 @@ p {
     margin-bottom: 16px;
     font-size: 32px;
     font-weight: 800;
+    text-shadow: 3px 5px 30px #f70441;
 }
 
 .right {
@@ -107,6 +108,7 @@ p {
 .right h1 {
     font-size: 56px;
     font-weight: 800;
+    text-shadow: 3px 5px 10px #f70441;
 }
 
 .right h4 {
