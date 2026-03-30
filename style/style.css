@@ -424,8 +424,8 @@ footer img {
 
 .blog-card {
     background-color: white;
-    border-radius: 8px;
-    width: 70%;
+    border-radius: 16px;
+    width: 50%;
     box-shadow: 0 4px 8px black;
     display: flex;
     flex-direction: column;
@@ -441,7 +441,7 @@ footer img {
 
 .blog-card img {
     width: 98%;
-    border-radius: 8px;
+    border-radius: 16px;
     height: 220px;
     object-fit: cover;
 }
