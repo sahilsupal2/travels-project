@@ -404,27 +404,30 @@ footer img {
 
 .blog-hold {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
   margin-bottom: 100px;
-  max-width: max-content;
+  max-width: 80%;
   justify-content: center;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
+  /* border: 1px solid black; */
 }
 
 .blog-card {
   background-color: white;
   border-radius: 16px;
-  width: 50%;
+  width: 30%;
+  margin-right: 50px;
   box-shadow: 0 4px 8px black;
   display: flex;
   flex-direction: column;
   transition: 0.3s ease;
   padding: 30px;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .blog-card:hover {
