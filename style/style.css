@@ -528,7 +528,7 @@ footer img {
   /* border: 1px solid black; */
   padding: 8px;
   border-radius: 15px;
-  background-color: #bbbbaf9d;
+  background-color: #bbbbafc9;
   color: #0c0c0c;
 }
 
@@ -542,7 +542,7 @@ footer img {
   /* border: 1px solid black; */
   padding: 10px;
   border-radius: 12px;
-  background-color: #bbbbaf9d;
+  background-color: #bbbbafc5;
   color: #0c0c0c;
 }
 
@@ -556,18 +556,21 @@ footer img {
 }
 
 .bg-img1 {
-  background-image: url("https://images.unsplash.com/photo-1501761095094-94d36f57edbb?q=80&w=1530&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://plus.unsplash.com/premium_photo-1697730504977-26847b1f1f91?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
+  background-position: center;
 }
 
 .bg-img2 {
-  background-image: url("https://images.unsplash.com/photo-1614596093370-278bc2e659ef?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://images.unsplash.com/photo-1676465997765-4e37e9da8cde?q=80&w=1633&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
+  background-position: center;
 }
 
 .bg-img3 {
-  background-image: url("https://images.unsplash.com/photo-1541857440519-8481717eaa84?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://plus.unsplash.com/premium_photo-1691031429447-d8460e45f9ff?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
+  background-position: center;
 }
 
 /* book */
@@ -641,4 +644,29 @@ footer img {
   font-size: large;
   font-weight: 500;
   color: rgb(74, 4, 139);
+}
+
+
+
+
+/* destination buy button */
+
+.main-box a {
+  background-color: #d6cfd5ce;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid #10a7acf6;
+  position: absolute;
+  /* top: 10px; */
+  bottom: 70px;
+  right: 10px;
+  text-decoration: none;
+  color: #080000;
+  font-weight: 600;
+}
+
+.main-box a:hover {
+  text-decoration: underline solid;
+  background-color: #f1b40c;
 }
