@@ -573,74 +573,72 @@ footer img {
 /* book */
 
 .book1 {
-    /* border: 1px solid black; */
-    display: flex;
-    min-height: 100vh;
-    border-radius: 0px;
-    padding: 10px 0;
+  /* border: 1px solid black; */
+  display: flex;
+  min-height: 100vh;
+  border-radius: 0px;
+  padding: 10px 0;
 }
 
-.book1 article{
-    /* border: 1px solid black; */
-    flex: 1;
-    display: flex;
-    max-width: 90%;
-    margin: 100px auto;
-    padding: 10px;
-    gap: 20px;
+.book1 article {
+  /* border: 1px solid black; */
+  flex: 1;
+  display: flex;
+  max-width: 90%;
+  margin: 100px auto;
+  padding: 10px;
+  gap: 20px;
 }
 
 .book-box {
-    border: 1px solid black;
-    flex: 1;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: #90b9d6;
+  border: 1px solid black;
+  flex: 1;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #90b9d6;
 }
 
-
 .book1 h2 {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .book1 form {
-    display: flex;
-    flex-direction: column;
-}
-
-.book1 label{
-    margin-bottom: 10px;
-}
-
-.book1 input{
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-}
-
-.book-btn {
-    padding: 10px;
-    background-color: #eb8e14;
-    border-radius: 5px;
-    transition: 0.3s ease;
-}
-
-
-.book1 button:hover {
-    background-color: #fd9002;
-    border-radius: 20px;
-}
-
-.book1 select {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .book1 label {
-    font-size: large;
-    font-weight: 500;
-    color: rgb(74, 4, 139);
+  margin-bottom: 10px;
+}
+
+.book1 input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.book-btn {
+  padding: 10px;
+  background-color: #eb8e14;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.book1 button:hover {
+  background-color: #fd9002;
+  border-radius: 20px;
+}
+
+.book1 select {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.book1 label {
+  font-size: large;
+  font-weight: 500;
+  color: rgb(74, 4, 139);
 }

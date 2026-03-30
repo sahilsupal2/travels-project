@@ -1,19 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Overworld Explorer</title>
-    <link rel="stylesheet" href="./style/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
     <nav>
       <div class="logo">the overworld explorer</div>
 
       <ol>
         <li><a href="index.html">home</a></li>
         <li><a href="destinations.html">destination</a></li>
-        <li><a href="tours.html">tours</a></li>
+        <!-- <li><a href="tours.html">tours</a></li> -->
         <li><a href="blog.html">blog</a></li>
         <li><a href="contact.html">contact</a></li>
         <li><a href="login.html">login</a></li>
@@ -21,66 +21,76 @@
       </ol>
     </nav>
 
-
     <section class="book1">
       <article>
-      <div class="book-box">
-        <h2>Trip Details</h2>
-        <form action="">
-          <label for="dest">Where do you want to go?</label>
+        <div class="book-box">
+          <h2>Trip Details</h2>
+          <form action="">
+            <label for="dest">Where do you want to go?</label>
 
-          <!-- <input type="text" name="" id="dest" placeholder="Select Your Destination"> -->
-           <select name="" id="dest" required>
-            <option value="" disabled selected>Select a destination or tour...</option>
-            <option value="Hampi">Hampi, Karnataka</option>
-            <option value="Mahabalipuram">Mahabalipuram, Tamil Nadu</option>
-            <option value="Amer Fort">Amer Fort, Rajasthan</option>
-           </select>
+            <!-- <input type="text" name="" id="dest" placeholder="Select Your Destination"> -->
+            <select name="" id="dest" required>
+              <option value="" disabled selected>
+                Select a destination or tour...
+              </option>
+              <option value="Hampi">Hampi, Karnataka</option>
+              <option value="Mahabalipuram">Mahabalipuram, Tamil Nadu</option>
+              <option value="Amer Fort">Amer Fort, Rajasthan</option>
+            </select>
 
-          <label for="depart">Departure Date</label>
+            <label for="depart">Departure Date</label>
 
-          <input type="date" name="" id="depart" placeholder="">
+            <input type="date" name="" id="depart" placeholder="" />
 
-          <label for="return">Return Date</label>
+            <label for="return">Return Date</label>
 
-          <input type="date" name="" id="return" placeholder="">
+            <input type="date" name="" id="return" placeholder="" />
+          </form>
+        </div>
+        <div class="book-box">
+          <h2>Personal Information</h2>
 
-        </form>
-      </div>
-      <div class="book-box">
-        <h2>Personal Information</h2>
+          <form action="">
+            <label for="name">Full Name</label>
 
-        <form action="">
-          <label for="name">Full Name</label>
+            <input type="text" name="" id="name" placeholder="your name" />
 
-          <input type="text" name="" id="name" placeholder="your name">
+            <label for="email">Email Address</label>
 
-          <label for="email">Email Address</label>
+            <input
+              type="email"
+              name=""
+              id="email"
+              placeholder="name@gmail.com"
+            />
 
-          <input type="email" name="" id="email" placeholder="name@gmail.com">
+            <label for="num">Phone Number</label>
 
-          <label for="num">Phone Number</label>
+            <input type="tel" name="" id="num" placeholder="+(91) 0000000000" />
 
-          <input type="tel" name="" id="num" placeholder="+(91) 0000000000">
-
-          <button type="button" class="book-btn">Confirm Booking</button>
-
-        </form>
-      </div>
+            <button type="button" class="book-btn">Confirm Booking</button>
+          </form>
+        </div>
       </article>
     </section>
 
-
-
     <footer>
       <div class="social-links">
-        <a href="https://github.com/sahilsupal2" target="_blank"><img src="./images/github.png" alt="" /></a>
-        <a href="https://x.com/just_androidx" target="_blank"><img src="./images/twitter.png   " alt="" /></a>
-        <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><img src="./images/instagram.svg" alt=""></a>
+        <a href="https://github.com/sahilsupal2" target="_blank"
+          ><img src="./images/github.png" alt=""
+        /></a>
+        <a href="https://x.com/just_androidx" target="_blank"
+          ><img src="./images/twitter.png   " alt=""
+        /></a>
+        <a
+          href="https://www.instagram.com/accounts/login/?hl=en"
+          target="_blank"
+          ><img src="./images/instagram.svg" alt=""
+        /></a>
       </div>
       <div class="copyright">
         <p>&copy; 2026 The Overworld Explorer. All rights reserved.</p>
       </div>
     </footer>
-</body>
+  </body>
 </html>
